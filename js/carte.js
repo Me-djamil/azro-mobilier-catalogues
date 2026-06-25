@@ -10,7 +10,7 @@ const CARTE_I18N = {
     title: 'Azro Mobilier',
     sub: 'Survolez ou cliquez la carte pour la retourner',
     flip: 'Retourner la carte',
-    img: "Image PNG",
+    img: "Image JPEG",
     pdf: 'PDF original',
   },
   en: {
@@ -20,7 +20,7 @@ const CARTE_I18N = {
     title: 'Azro Mobilier',
     sub: 'Hover or tap the card to flip it',
     flip: 'Flip the card',
-    img: 'PNG image',
+    img: 'JPEG image',
     pdf: 'Original PDF',
   },
   ar: {
@@ -30,7 +30,7 @@ const CARTE_I18N = {
     title: 'ش.ذ.م.م أزرو موبيلييي',
     sub: 'مرّر أو انقر على البطاقة لقلبها',
     flip: 'اقلب البطاقة',
-    img: 'صورة PNG',
+    img: 'صورة JPEG',
     pdf: 'PDF الأصلي',
   },
 };
