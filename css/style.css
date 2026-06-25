@@ -1214,26 +1214,25 @@ body[dir="rtl"] .section-head { text-align: center; }
     0 30px 60px rgba(74, 44, 26, 0.28),
     0 10px 24px rgba(74, 44, 26, 0.18),
     0 0 0 1px rgba(184, 136, 79, 0.25);
+  background-image: url("../carte-azro-mobilier.jpeg");
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
 }
 
 /* ---- Front (cream / gold) ---- */
 .bizcard-front {
-  background:
-    radial-gradient(circle at 18% 15%, rgba(212, 165, 116, 0.22), transparent 45%),
-    radial-gradient(circle at 85% 88%, rgba(160, 95, 42, 0.12), transparent 40%),
-    linear-gradient(140deg, #fdfbf6 0%, #f3e9d8 100%);
+  background-position: left center;
+}
+.bizcard-back {
+  transform: rotateY(180deg);
+  background-position: right center;
+  color: #f3e3cf;
 }
 .bc-front-inner {
-  position: absolute; inset: 0;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  text-align: center;
-  padding: 6cqw;
+  display: none;
 }
 .bc-logo {
-  width: 34cqw;
-  height: auto;
-  margin-bottom: 1.5cqw;
-  filter: drop-shadow(0 0.8cqw 1.6cqw rgba(74, 44, 26, 0.18));
+  display: none;
 }
 
 /* logo badge on the dark back face (keeps the emblem legible) */
