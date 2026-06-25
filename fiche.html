@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azro Mobilier — Fiche de présentation</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="cat-page">
+  <div class="wood-bg" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="back-btn" href="index.html">
+      <span class="back-arrow">←</span>
+      <span id="f-back">Retour</span>
+    </a>
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="logo.png" alt="Azro Mobilier" />
+      <div class="brand-text">
+        <span class="brand-name">AZRO MOBILIER</span>
+        <span class="brand-tag" id="f-tagline">Pensez Grand · Meublez Pro</span>
+      </div>
+    </a>
+    <nav class="lang-switch" aria-label="Language">
+      <button class="lang-btn active" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ar">AR</button>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="cat-hero">
+    <div class="cat-hero-inner">
+      <p class="eyebrow" id="f-edition">Édition Juin 2026</p>
+      <h1 class="cat-hero-title">
+        <span id="f-title1">Fiche de</span>
+        <span class="accent" id="f-title2">présentation</span>
+      </h1>
+      <p class="cat-hero-sub" id="f-subtitle">SARL Azro Mobilier — Mobilier de bureau professionnel, bureautique et scolaire.</p>
+      <a class="action-btn primary fiche-pdf-btn" id="f-pdf" href="Fiche_Azro_Mobilier_fr.PDF" target="_blank" rel="noopener">
+        <span>PDF original</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== Body (rendered by JS) ===== -->
+  <main class="cat-main" id="fiche-main"></main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Azro Mobilier — <span data-i18n="footer">Tous droits réservés</span></p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/fiche.js"></script>
+</body>
+</html>

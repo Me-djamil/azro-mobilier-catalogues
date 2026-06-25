@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azro Mobilier — Catalogue détaillé</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="cat-page">
+  <div class="wood-bg" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="back-btn" href="index.html">
+      <span class="back-arrow">←</span>
+      <span>Retour</span>
+    </a>
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="logo.png" alt="Azro Mobilier" />
+      <div class="brand-text">
+        <span class="brand-name">AZRO MOBILIER</span>
+        <span class="brand-tag">Pensez Grand · Meublez Pro</span>
+      </div>
+    </a>
+    <a class="action-btn" href="Catalogue détaillé des produits.pdf" target="_blank" rel="noopener">
+      <span>PDF original</span>
+    </a>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="cat-hero">
+    <div class="cat-hero-inner">
+      <p class="eyebrow">Édition Juin 2026</p>
+      <h1 class="cat-hero-title">
+        <span>Catalogue détaillé</span>
+        <span class="accent">des produits</span>
+      </h1>
+      <p class="cat-hero-sub">
+        Fabricant algérien de mobilier de bureau professionnel, bureautique et scolaire,
+        implanté à Beni Ourtilane (Wilaya de Sétif). Nous concevons, fabriquons et équipons
+        les espaces de travail de A à Z — du modèle standard à la fabrication sur-mesure.
+      </p>
+      <p class="cat-hero-note">Dimensions indicatives en centimètres · Largeur × Profondeur × Hauteur</p>
+    </div>
+  </section>
+
+  <!-- ===== Stats (animated counters) ===== -->
+  <section class="stats-section reveal">
+    <div class="stats-grid">
+      <div class="stat">
+        <span class="stat-num" data-count="161">0</span>
+        <span class="stat-label">Références produits</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="31">0</span>
+        <span class="stat-label">Familles de produits</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="3">0</span>
+        <span class="stat-label">Matières principales</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="39">0</span>
+        <span class="stat-label">Modèles de bureaux</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sticky sub-nav ===== -->
+  <nav class="subnav" id="subnav" aria-label="Sections du catalogue">
+    <div class="subnav-inner">
+      <a class="subnav-link" href="#mdf">Gamme MDF</a>
+      <a class="subnav-link" href="#sieges">Sièges &amp; salons</a>
+      <a class="subnav-link" href="#metallique">Gamme Métallique</a>
+      <a class="subnav-link" href="#melamine">Gamme Mélamine</a>
+      <a class="subnav-link" href="#nuancier">Nuancier</a>
+    </div>
+  </nav>
+
+  <!-- ===== Catalogue body (rendered by JS) ===== -->
+  <main class="cat-main" id="cat-main"></main>
+
+  <!-- ===== Nuancier ===== -->
+  <section class="nuancier-section" id="nuancier">
+    <div class="section-head reveal">
+      <p class="gamme-eyebrow">Finitions</p>
+      <h2 class="gamme-title">Nuancier des teintes</h2>
+      <p class="gamme-note">Une large palette selon la matière — teintes indicatives à l'écran, référez-vous toujours à vos échantillons physiques.</p>
+    </div>
+    <div class="nuancier-grid" id="nuancier-grid"></div>
+  </section>
+
+  <!-- ===== Contact CTA ===== -->
+  <section class="cat-contact reveal">
+    <div class="cat-contact-inner">
+      <h2 class="cat-contact-title">Demandez votre devis personnalisé</h2>
+      <p class="cat-contact-sub">Fabrication 100 % locale · Sur-mesure jusqu'à 48 places · Livraison sur tout le territoire national</p>
+      <div class="contact-rows">
+        <a class="contact-pill" href="tel:+213549880519">📞 +213 5 49 88 05 19</a>
+        <a class="contact-pill" href="mailto:azro.mobilier@gmail.com">✉ azro.mobilier@gmail.com</a>
+        <span class="contact-pill">📍 Beni Ourtilane, Wilaya de Sétif 19082</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Azro Mobilier — Tous droits réservés</p>
+  </footer>
+
+  <script src="js/catalogue.js"></script>
+</body>
+</html>

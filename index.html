@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azro Mobilier — Catalogues</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home">
+  <div class="wood-bg" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="logo.png" alt="Azro Mobilier" />
+      <div class="brand-text">
+        <span class="brand-name">AZRO MOBILIER</span>
+        <span class="brand-tag" data-i18n="tagline">Pensez Grand Meublez Pro</span>
+      </div>
+    </div>
+    <nav class="lang-switch" aria-label="Language">
+      <button class="lang-btn active" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ar">AR</button>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow" data-i18n="eyebrow">Bienvenue</p>
+      <h1 class="hero-title">
+        <span data-i18n="title_l1">Découvrez notre</span>
+        <span class="accent" data-i18n="title_l2">univers</span>
+      </h1>
+      <p class="hero-sub" data-i18n="subtitle">
+        Explorez nos catalogues et documents — chaque pièce raconte une histoire de bois, de savoir-faire et d'élégance.
+      </p>
+      <div class="scroll-hint">
+        <span data-i18n="scroll">Faites défiler pour explorer</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </div>
+  </main>
+
+  <section class="catalogues" id="catalogues">
+    <h2 class="section-title" data-i18n="section_title">Nos catalogues</h2>
+    <p class="section-sub" data-i18n="section_sub">Cliquez sur une carte pour ouvrir le document</p>
+
+    <div class="cards-grid">
+      <!-- Card 1: Product Catalogue -->
+      <a class="card" href="catalogue.html" data-href="catalogue.html" data-title-i18n="cat1_title" data-desc-i18n="cat1_desc" style="--delay: 0.1s;">
+        <div class="card-icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 8h28a4 4 0 0 1 4 4v40a4 4 0 0 0 4 4H16a4 4 0 0 1-4-4V8z"/>
+            <path d="M44 8a4 4 0 0 1 4 4v40"/>
+            <line x1="20" y1="20" x2="36" y2="20"/>
+            <line x1="20" y1="28" x2="36" y2="28"/>
+            <line x1="20" y1="36" x2="32" y2="36"/>
+          </svg>
+        </div>
+        <h3 class="card-title" data-i18n="cat1_title">Catalogue détaillé</h3>
+        <p class="card-desc" data-i18n="cat1_desc">Notre collection complète de produits</p>
+        <span class="card-cta" data-i18n="cta_open">Ouvrir →</span>
+        <div class="card-shine" aria-hidden="true"></div>
+      </a>
+
+      <!-- Card 2: Company Sheet (language-aware: FR / EN / AR) -->
+      <a class="card" href="fiche.html" data-href="fiche.html" data-title-i18n="cat2_title" data-desc-i18n="cat2_desc" style="--delay: 0.2s;">
+        <div class="card-icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 10h28l8 8v36a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V12a2 2 0 0 1 2-2z"/>
+            <path d="M42 10v8h8"/>
+            <line x1="20" y1="30" x2="44" y2="30"/>
+            <line x1="20" y1="38" x2="44" y2="38"/>
+            <line x1="20" y1="46" x2="36" y2="46"/>
+          </svg>
+        </div>
+        <h3 class="card-title" data-i18n="cat2_title">Fiche entreprise</h3>
+        <p class="card-desc" data-i18n="cat2_desc">Présentation Azro Mobilier (multilingue)</p>
+        <span class="card-cta" data-i18n="cta_open">Ouvrir →</span>
+        <div class="card-shine" aria-hidden="true"></div>
+      </a>
+
+      <!-- Card 3: Business Card -->
+      <a class="card" href="carte.html" data-href="carte.html" data-title-i18n="cat3_title" data-desc-i18n="cat3_desc" style="--delay: 0.3s;">
+        <div class="card-icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="8" y="16" width="48" height="32" rx="3"/>
+            <circle cx="22" cy="30" r="5"/>
+            <path d="M14 42c0-5 4-8 8-8s8 3 8 8"/>
+            <line x1="36" y1="26" x2="50" y2="26"/>
+            <line x1="36" y1="32" x2="50" y2="32"/>
+            <line x1="36" y1="38" x2="46" y2="38"/>
+          </svg>
+        </div>
+        <h3 class="card-title" data-i18n="cat3_title">Carte de visite</h3>
+        <p class="card-desc" data-i18n="cat3_desc">SARL Azro Mobilier — Coordonnées</p>
+        <span class="card-cta" data-i18n="cta_open">Ouvrir →</span>
+        <div class="card-shine" aria-hidden="true"></div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Azro Mobilier — <span data-i18n="footer">Tous droits réservés</span></p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
