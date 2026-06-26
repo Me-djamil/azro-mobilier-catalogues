@@ -1195,18 +1195,22 @@ body[dir="rtl"] .section-head { text-align: center; }
     0 30px 60px rgba(74, 44, 26, 0.28),
     0 10px 24px rgba(74, 44, 26, 0.18),
     0 0 0 1px rgba(184, 136, 79, 0.25);
-  background-image: url("../carte-azro-mobilier.jpeg");
-  background-repeat: no-repeat;
-  background-size: 200% 100%;
+  background-color: transparent;
 }
 
 /* ---- Front ---- */
 .bizcard-front {
-  background-position: left center;
+  background-image: url("../carte-front.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .bizcard-back {
   transform: rotateY(180deg);
-  background-position: right center;
+  background-image: url("../carte-back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .bc-front-inner {
   display: none;
