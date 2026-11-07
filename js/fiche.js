@@ -308,7 +308,7 @@ const FICHE = {
 };
 
 const PHONE = '+213 5 49 88 05 19';
-const EMAIL = 'azro.mobilier@gmail.com';
+const EMAIL = 'azromobilier@gmail.com';
 const PDF_BY_LANG = {
   fr: 'Fiche_Azro_Mobilier_fr.PDF',
   en: 'Fiche_Azro_Mobilier_en.pdf',
